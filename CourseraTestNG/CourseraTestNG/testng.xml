@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Suite">
+<listeners>
+<listener class-name="utilities.ExtentReportManager"></listener>
+</listeners>
+  <test  name="Test">
+  <parameter name="browser" value="Chrome"></parameter>
+  <parameter name="Course" value="Web Development"></parameter>
+    <classes>
+    <class name="testCases.TS00_Smoke"></class>
+      <class name="testCases.TS001_SearchCourse"/>
+      <class name="testCases.TS002_CourseDetails"/>
+      <class name="testCases.TS003_LanguageLearning"/>
+      <class name="testCases.TS004_FormRegistrationValid"/>
+      <class name="testCases.TS005_FormRegistrationInvalid"/>
+    </classes>
+  </test> <!-- Test -->
+   <!--  name="ETest">
+    <parameter name="browser" value="Edge"></parameter>
+    <parameter name="Course" value="Web Development"></parameter>
+    <classes>
+     <class name="testCases.TS001_SearchCourse"/>
+     <class name="testCases.TS002_CourseDetails"/>
+     <class name="testCases.TS003_LanguageLearning"/>
+     <class name="testCases.TS004_FormRegistrationValid"/>
+      <class name="testCases.TS005_FormRegistrationInvalid"/> 
+    </classes>
+  </test--> <!-- Test -->
+</suite> <!-- Suite -->
