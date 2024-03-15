@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate show more link&quot;, &quot;A Smoke Testing&quot;)">runScenario("Validate show more link", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate to form&quot;, &quot;MainFeatureFile&quot;)">runScenario("Navigate to form", "MainFeatureFile")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Form Registration&quot;, &quot;Regression Feature&quot;)">runScenario("Validate Form Registration", "Regression Feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Launch Browser&quot;, &quot;A Smoke Testing&quot;)">runScenario("Launch Browser", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate first navigation links&quot;, &quot;A Smoke Testing&quot;)">runScenario("Validate first navigation links", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Search For Courses&quot;, &quot;MainFeatureFile&quot;)">runScenario("Search For Courses", "MainFeatureFile")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Form Registration&quot;, &quot;Regression Feature&quot;)">runScenario("Validate Form Registration", "Regression Feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate third navigation links&quot;, &quot;A Smoke Testing&quot;)">runScenario("Validate third navigation links", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Language Filters&quot;, &quot;Regression Feature&quot;)">runScenario("Validate Language Filters", "Regression Feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate filters&quot;, &quot;A Smoke Testing&quot;)">runScenario("Validate filters", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Course Details&quot;, &quot;Regression Feature&quot;)">runScenario("Validate Course Details", "Regression Feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Form Registration&quot;, &quot;Regression Feature&quot;)">runScenario("Validate Form Registration", "Regression Feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Solution dropdown options&quot;, &quot;A Smoke Testing&quot;)">runScenario("Validate Solution dropdown options", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate search box&quot;, &quot;A Smoke Testing&quot;)">runScenario("Validate search box", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Language Learning&quot;, &quot;MainFeatureFile&quot;)">runScenario("Language Learning", "MainFeatureFile")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Fill The Form&quot;, &quot;MainFeatureFile&quot;)">runScenario("Fill The Form", "MainFeatureFile")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Search Functionality&quot;, &quot;Regression Feature&quot;)">runScenario("Validate Search Functionality", "Regression Feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Solution dropdown&quot;, &quot;A Smoke Testing&quot;)">runScenario("Validate Solution dropdown", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Form Registration&quot;, &quot;Regression Feature&quot;)">runScenario("Validate Form Registration", "Regression Feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate second navigation links&quot;, &quot;A Smoke Testing&quot;)">runScenario("Validate second navigation links", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Capture Course Details&quot;, &quot;MainFeatureFile&quot;)">runScenario("Capture Course Details", "MainFeatureFile")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Search Icon&quot;, &quot;A Smoke Testing&quot;)">runScenario("Validate Search Icon", "A Smoke Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Fill The Form&quot;, &quot;MainFeatureFile&quot;)">runScenario("Fill The Form", "MainFeatureFile")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testRunner.TestRun2" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Level Filters&quot;, &quot;Regression Feature&quot;)">runScenario("Validate Level Filters", "Regression Feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testRunner.TestRun2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate show more link&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Validate show more link", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate show more link","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Navigate to form&quot;, &quot;MainFeatureFile&quot;)">
+                  </a> <!-- runScenario("Navigate to form", "MainFeatureFile") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Navigate to form","MainFeatureFile")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Form Registration&quot;, &quot;Regression Feature&quot;)">
+                  </a> <!-- runScenario("Validate Form Registration", "Regression Feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Form Registration","Regression Feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Launch Browser&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Launch Browser", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Launch Browser","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate first navigation links&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Validate first navigation links", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate first navigation links","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search For Courses&quot;, &quot;MainFeatureFile&quot;)">
+                  </a> <!-- runScenario("Search For Courses", "MainFeatureFile") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search For Courses","MainFeatureFile")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Form Registration&quot;, &quot;Regression Feature&quot;)">
+                  </a> <!-- runScenario("Validate Form Registration", "Regression Feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Form Registration","Regression Feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate third navigation links&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Validate third navigation links", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate third navigation links","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Language Filters&quot;, &quot;Regression Feature&quot;)">
+                  </a> <!-- runScenario("Validate Language Filters", "Regression Feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Language Filters","Regression Feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate filters&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Validate filters", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate filters","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Course Details&quot;, &quot;Regression Feature&quot;)">
+                  </a> <!-- runScenario("Validate Course Details", "Regression Feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Course Details","Regression Feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Form Registration&quot;, &quot;Regression Feature&quot;)">
+                  </a> <!-- runScenario("Validate Form Registration", "Regression Feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Form Registration","Regression Feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Solution dropdown options&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Validate Solution dropdown options", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Solution dropdown options","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate search box&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Validate search box", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate search box","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Language Learning&quot;, &quot;MainFeatureFile&quot;)">
+                  </a> <!-- runScenario("Language Learning", "MainFeatureFile") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Language Learning","MainFeatureFile")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Fill The Form&quot;, &quot;MainFeatureFile&quot;)">
+                  </a> <!-- runScenario("Fill The Form", "MainFeatureFile") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Fill The Form","MainFeatureFile")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Search Functionality&quot;, &quot;Regression Feature&quot;)">
+                  </a> <!-- runScenario("Validate Search Functionality", "Regression Feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Search Functionality","Regression Feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Solution dropdown&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Validate Solution dropdown", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Solution dropdown","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Form Registration&quot;, &quot;Regression Feature&quot;)">
+                  </a> <!-- runScenario("Validate Form Registration", "Regression Feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Form Registration","Regression Feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate second navigation links&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Validate second navigation links", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate second navigation links","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Capture Course Details&quot;, &quot;MainFeatureFile&quot;)">
+                  </a> <!-- runScenario("Capture Course Details", "MainFeatureFile") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Capture Course Details","MainFeatureFile")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Search Icon&quot;, &quot;A Smoke Testing&quot;)">
+                  </a> <!-- runScenario("Validate Search Icon", "A Smoke Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Search Icon","A Smoke Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Fill The Form&quot;, &quot;MainFeatureFile&quot;)">
+                  </a> <!-- runScenario("Fill The Form", "MainFeatureFile") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Fill The Form","MainFeatureFile")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Level Filters&quot;, &quot;Regression Feature&quot;)">
+                  </a> <!-- runScenario("Validate Level Filters", "Regression Feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Level Filters","Regression Feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testRunner.TestRun2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'testRunner.TestRun2')
+data.setCell(0, 3, 133865);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'testRunner.TestRun2')
+data.setCell(1, 3, 71177);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'testRunner.TestRun2')
+data.setCell(2, 3, 64651);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'testRunner.TestRun2')
+data.setCell(3, 3, 63127);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'testRunner.TestRun2')
+data.setCell(4, 3, 41119);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'testRunner.TestRun2')
+data.setCell(5, 3, 40385);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'testRunner.TestRun2')
+data.setCell(6, 3, 37528);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'testRunner.TestRun2')
+data.setCell(7, 3, 37521);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'testRunner.TestRun2')
+data.setCell(8, 3, 36123);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'testRunner.TestRun2')
+data.setCell(9, 3, 23431);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'testRunner.TestRun2')
+data.setCell(10, 3, 19228);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'testRunner.TestRun2')
+data.setCell(11, 3, 17371);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'testRunner.TestRun2')
+data.setCell(12, 3, 16863);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'testRunner.TestRun2')
+data.setCell(13, 3, 16566);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'testRunner.TestRun2')
+data.setCell(14, 3, 15877);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'testRunner.TestRun2')
+data.setCell(15, 3, 14770);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'testRunner.TestRun2')
+data.setCell(16, 3, 14498);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'testRunner.TestRun2')
+data.setCell(17, 3, 13293);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'testRunner.TestRun2')
+data.setCell(18, 3, 8074);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'testRunner.TestRun2')
+data.setCell(19, 3, 7485);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'testRunner.TestRun2')
+data.setCell(20, 3, 7119);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'testRunner.TestRun2')
+data.setCell(21, 3, 5247);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'testRunner.TestRun2')
+data.setCell(22, 3, 4650);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'testRunner.TestRun2')
+data.setCell(23, 3, 2208);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testRunner.TestRun2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@71897380)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Launch Browser", "A Smoke Testing")</span>
+                <span class="method-start">106413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate search box", "A Smoke Testing")</span>
+                <span class="method-start">113903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Search Icon", "A Smoke Testing")</span>
+                <span class="method-start">119151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate show more link", "A Smoke Testing")</span>
+                <span class="method-start">133922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate filters", "A Smoke Testing")</span>
+                <span class="method-start">136132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate first navigation links", "A Smoke Testing")</span>
+                <span class="method-start">140783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate second navigation links", "A Smoke Testing")</span>
+                <span class="method-start">156662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate third navigation links", "A Smoke Testing")</span>
+                <span class="method-start">290528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Solution dropdown", "A Smoke Testing")</span>
+                <span class="method-start">305026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Solution dropdown options", "A Smoke Testing")</span>
+                <span class="method-start">313101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search For Courses", "MainFeatureFile")</span>
+                <span class="method-start">320221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Capture Course Details", "MainFeatureFile")</span>
+                <span class="method-start">343653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Language Learning", "MainFeatureFile")</span>
+                <span class="method-start">362883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Navigate to form", "MainFeatureFile")</span>
+                <span class="method-start">379450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Fill The Form", "MainFeatureFile")</span>
+                <span class="method-start">442578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Fill The Form", "MainFeatureFile")</span>
+                <span class="method-start">482964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Search Functionality", "Regression Feature")</span>
+                <span class="method-start">520485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Language Filters", "Regression Feature")</span>
+                <span class="method-start">533779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Level Filters", "Regression Feature")</span>
+                <span class="method-start">598431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Course Details", "Regression Feature")</span>
+                <span class="method-start">615803 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Form Registration", "Regression Feature")</span>
+                <span class="method-start">632666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Form Registration", "Regression Feature")</span>
+                <span class="method-start">673786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Form Registration", "Regression Feature")</span>
+                <span class="method-start">709909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Form Registration", "Regression Feature")</span>
+                <span class="method-start">747438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">818620 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
